@@ -22,7 +22,9 @@ the makefile to change bloom filter tuning params.
 
 # License
 
-This work is [Apache-2.0](https://opensource.org/licenses/Apache-2.0).
+This work is [Apache-2.0](https://opensource.org/licenses/Apache-2.0) licensed.
 
 Depends on [DCSO/bloom](https://github.com/DCSO/bloom) which is 
-[BSD-3-Clause](https://github.com/DCSO/bloom/blob/master/LICENSE)
+[BSD-3-Clause](https://github.com/DCSO/bloom/blob/master/LICENSE).
+
+Depends on [Golang](https://github.com/golang/go) which is [BSD-3-Clause](https://github.com/golang/go/blob/master/LICENSE).
