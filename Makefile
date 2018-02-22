@@ -23,7 +23,7 @@ pwned-passwords-2.0.txt:
 bloom: pwned-passwords-2.0.txt .build/bin/bloom
 	rm -rf data
 	mkdir data
-	cut -f 1 -d : ./pwned-passwords-2.0.txt | .build/bin/bloom cr -p 0.000001 -n 501636842 data/pwned.bloom	
+	cut -f 1 -d : ./pwned-passwords-2.0.txt | .build/bin/bloom cr -p 0.00000001 -n 501636842 data/pwned.bloom	
 
 .build/bin/bloom:
 	GOPATH=$(PWD)/.build go get github.com/DCSO/bloom/bloom	
