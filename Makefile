@@ -2,7 +2,7 @@
 
 pwned: .build/bin/rice
 	go build
-	$(PWD)/.rice/bin/rice append --exec pwned
+	$(PWD)/.build/bin/rice append --exec pwned
 
 .build:
 	mkdir .build
